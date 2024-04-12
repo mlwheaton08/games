@@ -1,0 +1,22 @@
+.main {
+    margin-top: var(--nav-height);
+}
+
+.cardContainer {
+    width: 650px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 24%;
+    height: 24%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card:hover {
+    cursor: pointer;
+}
