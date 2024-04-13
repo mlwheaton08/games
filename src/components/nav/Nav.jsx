@@ -8,10 +8,8 @@ import { MobileNav } from "./MobileNav.jsx"
 export function Nav({ navState, setNavState }) {
 
     const navItems = [
-        {text: "Grocery Lists", navigateTo: "/groceryLists"},
-        {text: "Recipes", navigateTo: "/recipes"},
-        {text: "Items", navigateTo: "/items"},
-        {text: "Card Match", navigateTo: "/card_match"}
+        {text: "Card Match", navigateTo: "/card_match"},
+        {text: "Calculator", navigateTo: "/calculator"}
     ]
 
     const [search, setSearch] = useState("")

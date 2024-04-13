@@ -8,6 +8,7 @@ import { Recipes } from './components/recipes/Recipes'
 import { Dashboard } from './components/dashboard/Dashboard'
 import { Dashboard2 } from './components/dashboard/Dashboard2'
 import { CardMatch } from './components/cardMatch/CardMatch'
+import { Calculator } from './components/calculator/Calculator'
 
 export default function App() {
 
@@ -67,6 +68,7 @@ export default function App() {
 				<Route path="/recipes" element={ <Recipes /> } />
 				<Route path="/items" element={ <Items /> } />
 				<Route path="/card_match" element={ <CardMatch /> } />
+				<Route path="/calculator" element={ <Calculator /> } />
 				<Route path="/dashboard" element={ <Dashboard2 /> } />
 
 			</Route>
