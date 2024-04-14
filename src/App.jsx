@@ -65,8 +65,6 @@ export default function App() {
 			}>
 
 				<Route path="/" element={ <Home /> } />
-				<Route path="/recipes" element={ <Recipes /> } />
-				<Route path="/items" element={ <Items /> } />
 				<Route path="/card_match" element={ <CardMatch /> } />
 				<Route path="/calculator" element={ <Calculator /> } />
 				<Route path="/dashboard" element={ <Dashboard2 /> } />
