@@ -1,0 +1,3 @@
+export const wordOptions = [
+    {text: 'what'}, {text: 'were'}, {text: 'they'}, {text: 'eating'}, {text: 'it'}, {text: 'didn\'t'}, {text: 'taste'}, {text: 'like'}, {text: 'anything'}, {text: 'she'}, {text: 'had'}, {text: 'ever'}, {text: 'eaten'}, {text: 'before'}, {text: 'and'}, {text: 'although'}, {text: 'she'}, {text: 'was'}, {text: 'famished'}, {text: 'she'}, {text: 'didn\'t'}, {text: 'dare'}, {text: 'ask'}, {text: 'she'}, {text: 'knew'}, {text: 'the'}, {text: 'answer'}, {text: 'would'}, {text: 'be'}, {text: 'one'}, {text: 'she'}, {text: 'didn\'t'}, {text: 'want'}, {text: 'to'}, {text: 'hear'}
+]

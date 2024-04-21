@@ -9,6 +9,7 @@ import { Dashboard } from './components/dashboard/Dashboard'
 import { Dashboard2 } from './components/dashboard/Dashboard2'
 import { CardMatch } from './components/cardMatch/CardMatch'
 import { Calculator } from './components/calculator/Calculator'
+import { WPMTest } from './components/WPMTest/WPMTest'
 
 export default function App() {
 
@@ -67,6 +68,7 @@ export default function App() {
 				<Route path="/" element={ <Home /> } />
 				<Route path="/card_match" element={ <CardMatch /> } />
 				<Route path="/calculator" element={ <Calculator /> } />
+				<Route path="/wpm_test" element={ <WPMTest /> } />
 				<Route path="/dashboard" element={ <Dashboard2 /> } />
 
 			</Route>

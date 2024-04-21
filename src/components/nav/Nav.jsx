@@ -9,7 +9,8 @@ export function Nav({ navState, setNavState }) {
 
     const navItems = [
         {text: "Card Match", navigateTo: "/card_match"},
-        {text: "Calculator", navigateTo: "/calculator"}
+        {text: "Calculator", navigateTo: "/calculator"},
+        {text: "WPM Test", navigateTo: "/wpm_test"}
     ]
 
     const [search, setSearch] = useState("")
