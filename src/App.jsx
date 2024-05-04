@@ -10,6 +10,7 @@ import { Dashboard2 } from './components/dashboard/Dashboard2'
 import { CardMatch } from './components/cardMatch/CardMatch'
 import { Calculator } from './components/calculator/Calculator'
 import { WPMTest } from './components/WPMTest/WPMTest'
+import { MouseMove } from './components/mouseMove/MouseMove'
 
 export default function App() {
 
@@ -69,6 +70,7 @@ export default function App() {
 				<Route path="/card_match" element={ <CardMatch /> } />
 				<Route path="/calculator" element={ <Calculator /> } />
 				<Route path="/wpm_test" element={ <WPMTest /> } />
+				<Route path="/mouse_move" element={ <MouseMove /> } />
 				<Route path="/dashboard" element={ <Dashboard2 /> } />
 
 			</Route>
